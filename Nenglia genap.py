@@ -18,14 +18,14 @@ def hitung_tunjangan_beras(jumlah_tanggungan):
     tunjangan_beras = jumlah_tanggungan * 10 * harga_beras_per_kg
     return tunjangan_beras
 
-# Fungsi untuk menghitung potongan pajak (misal 5% dari total gaji)
+# Fungsi untuk menghitung potongan pajak (misal 2% dari total gaji)
 def hitung_potongan_pajak(total_gaji):
-    pajak = 0.05 * total_gaji  # Potongan pajak 5%
+    pajak = 0.02 * total_gaji  # Potongan pajak 5%
     return pajak
 
-# Fungsi untuk menghitung tambahan lembur (misal Rp 20.000 per jam lembur)
+# Fungsi untuk menghitung tambahan lembur (misal Rp 10.000 per jam lembur)
 def hitung_lembur(jam_lembur):
-    tarif_lembur_per_jam = 20000  # Tarif lembur per jam
+    tarif_lembur_per_jam = 10000  # Tarif lembur per jam
     return jam_lembur * tarif_lembur_per_jam
 
 # Fungsi utama untuk menghitung gaji total dengan lembur dan pajak
